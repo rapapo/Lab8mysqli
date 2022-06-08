@@ -2,7 +2,7 @@
 define('db_user','root');
 define('db_passsword', null);
 define('db_host','localhost');
-define('db_name','registration');
+define('db_name','lab7');
 
 $conn=mysqli_connect (db_host, db_user, db_passsword, db_name);
 $result=mysqli_query($conn,"select*from user");
