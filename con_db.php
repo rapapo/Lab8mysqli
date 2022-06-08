@@ -1,6 +1,6 @@
 <?php
 define('db_user'),('root');
-define('db_passsword','');
+define('db_passsword',null);
 define('db_host','localhost');
 define('db_name','registration');
 
