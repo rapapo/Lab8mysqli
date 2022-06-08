@@ -8,6 +8,6 @@ $conn = mysqli_connect (db_host, db_user, db_password, db_name);
 
 if (mysqli_connect_errno ())
 {
-    echo Failed to connect to MysQL: " - mysqli_connect_error ();
+    echo "Failed to connect to MysQL: " . mysqli_connect_error ();
 }
 ?>
